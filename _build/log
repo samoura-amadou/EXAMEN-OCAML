@@ -1,9 +1,9 @@
 # dune exec hello_world
 # OCAMLPARAM: unset
 # Shared cache: disabled
-# Workspace root: /home/runner/OCaml
-# Auto-detected concurrency: 12
-$ /nix/store/b53f0332zyzqsdp275807h07wvn5yb2b-ocaml-4.14.0/bin/ocamlc.opt -config > /tmp/dune_970cde_output
+# Workspace root: /home/runner/formationOCAML
+# Auto-detected concurrency: 6
+$ /nix/store/b53f0332zyzqsdp275807h07wvn5yb2b-ocaml-4.14.0/bin/ocamlc.opt -config > /tmp/dune_609feb_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -13,7 +13,7 @@ $ /nix/store/b53f0332zyzqsdp275807h07wvn5yb2b-ocaml-4.14.0/bin/ocamlc.opt -confi
 #  ; fdo_target_exe = None
 #  ; build_dir = "default"
 #  ; toplevel_path =
-#      Some External "/home/runner/OCaml/.opam/default/lib/toplevel"
+#      Some External "/home/runner/formationOCAML/.opam/default/lib/toplevel"
 #  ; ocaml_bin =
 #      External "/nix/store/b53f0332zyzqsdp275807h07wvn5yb2b-ocaml-4.14.0/bin"
 #  ; ocaml =
@@ -37,20 +37,23 @@ $ /nix/store/b53f0332zyzqsdp275807h07wvn5yb2b-ocaml-4.14.0/bin/ocamlc.opt -confi
 #          "/nix/store/b53f0332zyzqsdp275807h07wvn5yb2b-ocaml-4.14.0/bin/ocamlmklib.opt"
 #  ; env =
 #      map
-#        { "DUNE_OCAML_HARDCODED" : "/home/runner/OCaml/.opam/default/lib"
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/home/runner/formationOCAML/.opam/default/lib"
 #        ; "DUNE_OCAML_STDLIB" :
 #            "/nix/store/b53f0332zyzqsdp275807h07wvn5yb2b-ocaml-4.14.0/lib/ocaml"
-#        ; "DUNE_SOURCEROOT" : "/home/runner/OCaml"
-#        ; "INSIDE_DUNE" : "/home/runner/OCaml/_build/default"
+#        ; "DUNE_SOURCEROOT" : "/home/runner/formationOCAML"
+#        ; "INSIDE_DUNE" : "/home/runner/formationOCAML/_build/default"
 #        ; "OCAMLFIND_IGNORE_DUPS_IN" :
-#            "/home/runner/OCaml/_build/install/default/lib"
-#        ; "OCAMLPATH" : "/home/runner/OCaml/_build/install/default/lib"
+#            "/home/runner/formationOCAML/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/home/runner/formationOCAML/_build/install/default/lib"
 #        ; "OCAMLTOP_INCLUDE_PATH" :
-#            "/home/runner/OCaml/_build/install/default/lib/toplevel"
+#            "/home/runner/formationOCAML/_build/install/default/lib/toplevel"
 #        ; "OCAML_COLOR" : "always"
 #        ; "OPAMCOLOR" : "always"
 #        }
-#  ; findlib_paths = [ External "/home/runner/OCaml/.opam/default/lib" ]
+#  ; findlib_paths =
+#      [ External "/home/runner/formationOCAML/.opam/default/lib" ]
 #  ; arch_sixtyfour = true
 #  ; natdynlink_supported = true
 #  ; supports_shared_libraries = true
